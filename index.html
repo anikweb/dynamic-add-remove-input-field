@@ -49,7 +49,7 @@
         });
         $('.remove-field').click(function(){
             if($('.multi-field', $wrapper).length >1){
-                $('.multi-field').remove();
+                 $(this).parent('.multi-field').remove();
             }
         });
     });
